@@ -1,4 +1,5 @@
-<-- 13.01.2023 Czerczon -->
+<!-- 13.01.2023, Czerczon -->
+
 <html>
 <head>
 <META HTTP-EQUIV="content-type" CONTENT="text/html">   
@@ -23,9 +24,15 @@ Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem 
   <h1>4. Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</h1>
   
    <p>
- 1. liniowe –
- 2. blokowe –
- 3. liniowo-blokowe – 
+ 1. liniowe –<span>, <em>, <strong>
+    Elementy liniowe nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w jednej linii.
+    Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na "inline".
+ 2. blokowe –<div>, <p>, <article>
+    Elementy blokowe z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod drugim, a więc nigdy nie wyświetlą się obok siebie
+    . Domyślnie, elementom blokowym przeglądarka ustawia właściwość "display" na "block",
+ 3. liniowo-blokowe – <input>, <textarea>
+    Elementy liniowo-blokowe z kolei będą zachowywać się jak liniowe, jeśli chodzi o położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że możesz nadać im różne wielkości. Ma to sens, np. <textarea> wyświetla się jako duży prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu.
+    Domyślnie, elementom liniowo blokowym przeglądarka ustawia właściwość "display" na "inline-block".
  </p> 
 </body> 
 </html>
