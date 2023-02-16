@@ -1,12 +1,12 @@
 p{
     font-size: 22pt;
 }
-p[title*="gruby_dylevich"]{
+p[title*="gruby_czerczon"]{
     text-decoration: solid;
     color: red;   
     font-size: 17pt;
 }
-#dlawszystkich_dylevich{
+#dlawszystkich_czerczon{
     color: yellow;
     font-size: 10pt;
     font-family: arial;
