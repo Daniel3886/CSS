@@ -1,0 +1,54 @@
+p#akapit1_czerczon{
+    text-align: center;
+    font-family: serif;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 9px;
+    color: #ffe4c4;
+    text-indent: 3cm;
+}
+p#akapit2_czerczon{
+    font-family: sans-serif;
+    text-align: right;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 13pt;
+    color: #dc143c;
+    text-indent: 15cm;
+}
+
+#1_czerczon{
+    font-size: x-small;
+    font-weight: 400;
+    text-decoration: overline;
+    font-variant:small-caps;
+}
+#z2_czerczon{
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+}
+#z3_czerczon{
+    font-size: xx-large;
+    font-weight: 800;
+    text-transform: lowercase;
+}
+
+
+#z4_czerczon{
+    font-size: 56px;
+    font-weight: 300;
+    font-variant:small-caps;
+    text-decoration: line-through;
+}
+#z5_czerczon{
+    font-size: 4in;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+#z6_czerczon{
+    font-size: 2em;
+    font-weight: 800;
+    font-variant:small-caps;
+}
