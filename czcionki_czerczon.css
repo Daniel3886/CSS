@@ -1,54 +1,50 @@
 p#akapit1_czerczon{
-    text-align: center;
-    font-family: serif;
+   font-family: serif;
+    color: #ffc0cb;
+    text-decoration: overline;
+    font-style: italic;
+    text-indent: 2cm;
     line-height: 1cm;
     word-spacing: 12px;
-    letter-spacing: 9px;
-    color: #ffe4c4;
-    text-indent: 3cm;
+    letter-spacing: 5ex;
 }
 p#akapit2_czerczon{
     font-family: sans-serif;
-    text-align: right;
-    line-height: 1cm;
-    word-spacing: 12px;
-    letter-spacing: 13pt;
-    color: #dc143c;
-    text-indent: 15cm;
+    color: #eaddca;
+    text-decoration: line-through;
+    font-style: oblique;
+    text-indent: 25mm;
+    line-height: 15mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.5cm;
+
 }
 
 #1_czerczon{
+   font-weight: 200;
     font-size: x-small;
-    font-weight: 400;
-    text-decoration: overline;
-    font-variant:small-caps;
 }
 #z2_czerczon{
+   font-weight: 700;
     font-size: medium;
-    font-weight: 600;
-    font-style: italic;
+    text-transform: uppercase;
 }
 #z3_czerczon{
-    font-size: xx-large;
-    font-weight: 800;
-    text-transform: lowercase;
+    font-weight: 900;
+    font-size: large;
 }
 
 
 #z4_czerczon{
-    font-size: medium;
     font-weight: 300;
-    font-variant:small-caps;
-    text-decoration: line-through;
+    font-size: xx-small;
 }
 #z5_czerczon{
-    font-size: xx-small;
-    font-weight: 600;
-    font-style: oblique;
+       font-weight: 600;
+    font-size: small;
     text-transform: capitalize;
 }
 #z6_czerczon{
-    font-size: xx-large;
     font-weight: 800;
-    font-variant:small-caps;
+    font-size: large;
 }
