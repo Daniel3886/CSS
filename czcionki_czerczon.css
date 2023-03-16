@@ -1,3 +1,17 @@
+.headText{
+    color: #ff0000;
+    font-size: 1cm;
+    text-align: right;
+}
+.akapit1{
+    color: #00ffff;
+    text-align: center;
+
+}
+.akapit2{
+    color: #00ffff;
+    text-align: right;
+}
 p#akapit1_czerczon{
    font-family: serif;
     color: #ffc0cb;
