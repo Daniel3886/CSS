@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <title>styl importowany</title>
+    <meta http-equiv="Content-Type" content="text/html">
+      <style>
+      ul li p{
+        font-family: Arial;
+        }   
+       </style> 
+   <body>
+     <h1>Cel stosowania szablonów HTML 4.01 Transitional</h1>
+     <p style="font-family: Arial;">Zanim walidator sprawdzi dokument, musi wiedzieć w jakim języku został napisany: Strict, Transitional, Frame Set, Istnieje kilka typów HTML (język znaczników)</p>
+     <h1>Opis</h1>
+     <ul>
+     <li>‘Strict’ - Strict składa się z bardzo rygorystycznych reguł co można a czego nie można robić w danym dokumencie HTML,</li>
+     <li>‘Transitional’ - Transitional jest bardziej łagodnym zbiorem zasad i potrafi wybaczyć pewne rzeczy,</li>
+     <li>‘Frame Set’ - Frame Set prawie na wymarciu w obecnych czasach</li>
+     </ul>
+     <h1>Przykłady szablonów HTML 4.01 Transitional</h1>
+      <ul>
+     <li>w tabeli</li>
+<textarea disabled readonly> <!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01 Transitional//EN” “http://www.w3.org/TR/html4/loose.dtd”> </textarea>
+     <li>wytłumaczenie - Aby powiedzieć przeglądarce jakiego języka znaczników używamy, precyzujemy deklaracje typu dokumentu (DocType) na samym początku kodu HTML, czyli przed znacznikiem <html>. Podanie adresu wersji DTD, pozwala przeglądarce pobrać wersję DTD oraz wszystkie potrzebne zestawy znaków.</li>
+     <li>dokładny opis - Deklaracja typu dokumentu. Deklaracja typu dokumentu (DTD - document type declaration) określa poziom użytego na stronie języka HTML.</li>
+     </ul>
+     <h1>Wartości domyślne</h1>
+     <p style="font-family: Arial;">Jeśli nie podamy żadnej z powyższych wersji DTD, jako domyślna najprawdopodobniej zostanie przyjęta Transitional DTD (w MSIE), ale sposób ten absolutnie nie jest zalecany! W każdym dokumencie HTML, na samym początku, powinna się pojawić deklaracja DTD. Najbezpieczniejszym rozwiązaniem, kiedy kluczowe znaczenie ma kompatybilność wstecz, wydaje się użycie Transitional DTD, chyba że chcemy się ściśle trzymać wytycznych specyfikacji co do znaczników i atrybutów zdeprecjonowanych, wtedy należy zastosować Strict DTD i nie używać tych znaczników ani atrybutów.</p>
+     </body>
+    </html>
