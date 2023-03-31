@@ -1,0 +1,71 @@
+<!--25.11.2022, Czerczon -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="css/html">
+ h1{
+   font-family: Arial;
+  }
+</head>
+<h1> Co to są pseudoklasyk?</h1>
+<p>CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych elementów dokumentu są to Pseudoklasy.</p>
+  
+ <h1> Uwaga dotycząca dwukropka</h1>
+<p>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy selektorem a nazwą klasy.</p>
+
+
+<ul>
+  <h1>Zastosowanie pseudoklasy :active</h1><br>
+  <li>można używać jako uzupełnienia definicji odnośników</li>
+  <li>jako elementu poprawiającego czytelność formularzy.</li>
+   </ul>
+  
+<ul>
+  <h1>Przykłady (trzy) kodów definiowania pseudoklas (wraz z tematem)</h1><br>
+  <li>Przykład 1
+Temat: Arkusz wykorzystujący :link oraz :visited pseudoklasy w połączeniu z selektorem A.
+ Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu taki odnośnik będzie miał kolor zielony.</li>
+ <textarea disabled readonly>
+  A:link
+{
+color:red;
+}
+A:visited
+{
+color:green;
+}
+ </textarea>
+  
+  <li>Przykład 2
+Temat: Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.</li>
+  <textarea disabled readonly>
+    A /* Definicja odsyłacza podstawowego*/
+{
+font-size:12pt;
+text-decoration:none;
+}
+A:link
+{
+color:navy;
+}
+A:visited
+{
+color:green;
+}
+A:hover
+{
+color:red;
+text-decoration:underline;
+}
+    </textarea>
+  <li>Przykład 3
+Temat: Zastosowanie :focus</li>
+  <textarea disabled readonly>
+    A:focus
+{
+color:braun;
+}
+  </textarea>
+   </ul>
+  
+ </body>
+</html>
