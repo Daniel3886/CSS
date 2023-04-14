@@ -3,7 +3,7 @@ div.red-text
 width: 2cm;
 color: ff0000;
 }
-A
+li.none
 {
 font-size: 18pt;
 text-decoration: none;
@@ -16,7 +16,7 @@ A:visited
 {
 color: green;
 }
-A:hover
+li.underline
 {
 color: red;
 text-decoration: underline;
