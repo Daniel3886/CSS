@@ -3,17 +3,17 @@ body {
 }
 
 p {
-    font-size: 6mm;
-    color: blue;
+    font-size: 7mm;
+    color: yellow;
 }
 
 p:lang(pl) {
-    font-size: 7mm;
-    color: silver;
+    font-size: 8mm;
+    color: yellow;
 }
 
 p:lang(en) {
-    font-size: 11mm;
-    color: lightgreen;
+    font-size: 12mm;
+    color: silver;
 }
-/*Mysiv Sviatoslav*/
+/*Daniel Czerczon*/
