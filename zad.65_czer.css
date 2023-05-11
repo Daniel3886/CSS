@@ -1,0 +1,32 @@
+body {
+    background-color: silver;
+}
+p{font-size: 10pt; margin-left: 3%;}
+
+p:first-child{font-size: 9mm; font-style: italic;}
+
+div#pierwszy_czerczon {
+    width: 732pt;
+    background-color: pink;
+    border: solid 7px violet;
+    border-radius: 13mm;
+}
+
+div#drugi_czerczon {
+    width: 932pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border: solid 3px black;
+    border-radius: 15mm;
+}
+
+div#trzeci_czerczon {
+    width: 1132pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border: solid 5px navy;
+    border-radius: 11mm;
+}
+/*Daniel Czerczon*/
