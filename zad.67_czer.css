@@ -1,30 +1,50 @@
 
-  p:first-of-type:first-letter {
-  font-size: 116pt;
-  color: yellow;
+body {
+    background-color: rgb(255, 206, 206);
+}
+p {
+    margin-bottom: 2.5%;
+}
+.first:first-letter {
+    font-size: 115pt;
+    color: yellow;
+}
+.first {
+    font-size: 23pt;
+    color: lightgreen;
 }
 
-p:not(:first-of-type):first-letter {
-  font-size: 110pt;
-  color: red;
+.second::first-letter {
+    font-size: 115pt;
+    color: yellow;
 }
 
-p{
-  font-size: 15pt;
-  color: blue;
+.second {
+    font-size: 21pt;
+    color: silver;
+}
+
+h1::first-letter {
+    color: silver;
+    font-size: 120pt;
+}
+
+.third::first-letter {
+    font-size: 100pt;
+}
+
+.third::first-line {
+    color: red;
+    font-size: 17pt;
+}
+
+.third {
+    font-size: 25pt;
+    color: blue;
 }
 
 h1 {
-  font-size:medium;
-  color: purple;
+    color: violet;
+    font-size: 40pt;
 }
-
-h1:first-letter {
-  font-size:xx-large;
-  color: silver;
-}
-
-p:last-of-type:first-line{
-    font-weight: bold;
-  color: red;
-}
+/*Daniel Czerczon*/
