@@ -1,3 +1,4 @@
+
 html, body
 {
 backround-color:yellow;
@@ -22,6 +23,7 @@ position: absolute; left: 80px; top: 60px;
 font-size: 60pt;
 font-weight: bold;
 color: black;
+}
   p.cien2_czer
 {
 position: absolute; left: 90px; top: 260px;
